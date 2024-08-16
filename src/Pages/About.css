@@ -1,0 +1,33 @@
+.about {
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    place-items: center; 
+    width: 100vw;
+    height: 100vh; 
+    text-align: center; 
+    margin: 0;
+  }
+  
+ 
+  .about p {
+    font-size: 24px;
+    max-width: 1200px;
+    text-align: justify;
+  }
+  
+ 
+  .about h2 {
+    
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about {
+      padding: 20px; 
+    }
+  
+    .about p {
+      font-size: 18px; 
+      margin: 10px 0;   }
+  }
+  
